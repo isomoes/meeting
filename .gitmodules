@@ -1,21 +1,18 @@
 [submodule "paper/ThirdPaper"]
 	path = paper/ThirdPaper
-	url = git@github.com:jiahaoxiang2000/ThirdPaper.git
+	url = git@github.com:isomoes/ThirdPaper.git
 [submodule ".github/prompts"]
 	path = .github/prompts
-	url = git@github.com:jiahaoxiang2000/prompts.git
+	url = git@github.com:isomoes/prompts.git
 [submodule "paper/FourthPaper"]
 	path = paper/FourthPaper
-	url = https://github.com/jiahaoxiang2000/deeper-paper.git
-[submodule ".claude"]
-	path = .claude
-	url = git@github.com:jiahaoxiang2000/claude-conf.git
+	url = https://github.com/isomoes/deeper-paper.git
 [submodule "paper/SecondPaper"]
 	path = paper/SecondPaper
-	url = https://github.com/jiahaoxiang2000/SecondPaper.git
+	url = https://github.com/isomoes/SecondPaper.git
 [submodule "paper/big_paper"]
 	path = paper/big_paper
-	url = https://github.com/jiahaoxiang2000/big_paper.git
+	url = https://github.com/isomoes/big_paper.git
 [submodule "typesetting"]
 	path = typesetting
-	url = https://github.com/jiahaoxiang2000/typesetting.git
+	url = https://github.com/isomoes/typesetting.git

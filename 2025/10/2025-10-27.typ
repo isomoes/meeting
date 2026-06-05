@@ -112,7 +112,7 @@
 - Point 3 (Editorial): 列举全部术语修正、图表标记、参考文献与术语一致性决策
 - Point 4 (Figures/Tables): 说明Table 1格式优化与全部图表矢量化技术细节
 
-#greent[方法论透明度强化] 回复OPO算法伪代码/参数查询，说明Split()与SelectBetterPair()函数在Algorithm 1已提供充分重实现细节，补充完整实现开源于GitHub仓库(https://github.com/jiahaoxiang2000/bitsliced_optimize)包含LCB框架、OPO算法与BGC编码，确保完全可复现性。
+#greent[方法论透明度强化] 回复OPO算法伪代码/参数查询，说明Split()与SelectBetterPair()函数在Algorithm 1已提供充分重实现细节，补充完整实现开源于GitHub仓库(https://github.com/isomoes/bitsliced_optimize)包含LCB框架、OPO算法与BGC编码，确保完全可复现性。
 
 
 // Bibliography section
