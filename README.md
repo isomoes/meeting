@@ -1,27 +1,56 @@
-# weekly report
+# Meeting Reports
 
-The report is to record the things I have done in the past week. It helps me to review my work and make a plan for the next week.
-Help me to keep track of my progress and make sure I am on the right track.
+Meeting reports and slides, written in [Typst](https://typst.app/), organized by date.
 
-> old version weekly report on the [Yuque](https://www.yuque.com/xjh2000/wzrsc8).
+> Older weekly reports live on [Yuque](https://www.yuque.com/xjh2000/wzrsc8).
 
-## TASKS
+## Navigation
 
-- [ ] TODO: change the report font more beautiful.
+### Reports by year
 
-## Delta
+Each year folder is split into months (`01`–`12`); links below go straight to the PDFs.
 
-we had push our weekly job on the github. Then we have can automate get the weekly delta report based on the `diff` function on git.
-Then use the LLMs to generate the weekly report based on the delta report.
+#### [2026](2026/)
 
-### get delta from `diff`
+- **05**: [05-17](2026/05/20260517.pdf) · [05-11](2026/05/20260511.pdf) ([slide](2026/05/20260511-slide.pdf))
+- **04**: [04-27](2026/04/260427.pdf) ([slide](2026/04/20260427-slide.pdf)) · [04-20](2026/04/2026-04-20.pdf) ([slide](2026/04/20260420-slide.pdf)) · [04-13](2026/04/20260413.pdf) ([slide](2026/04/20260413-slide.pdf))
+- **03**: [03-30](2026/03/20260330.pdf) ([slide](2026/03/20260330-slide.pdf)) · [03-23](2026/03/20260323.pdf) ([slide](2026/03/20260323-slide.pdf)) · [03-16](2026/03/20260316.pdf) ([slide](2026/03/20260316-slide.pdf)) · [03-09](2026/03/20260309.pdf) ([slide](2026/03/20260309-slide.pdf)) · [03-02](2026/03/20260302.pdf) ([slide](2026/03/20260302-slide.pdf))
+- **02**: [02-09](2026/02/20260209.pdf) ([slide](2026/02/20260209-slide.pdf)) · [02-02](2026/02/20260202.pdf) ([slide](2026/02/20260202-slide.pdf))
+- **01**: [01-26](2026/01/20260126.pdf) ([slide](2026/01/20260126-slide.pdf)) · [01-19](2026/01/20260119.pdf) ([slide](2026/01/20260119-slide.pdf)) · [01-12](2026/01/2026-01-12.pdf) ([slide](2026/01/2026-01-12-slide.pdf))
 
-To get the diff from last week to now, we need to use a date-based approach with git diff rather than just comparing the last commit:
+<details>
+<summary><strong>2025</strong></summary>
 
-```bash
-# Get changes between now and six days ago
-git diff --name-only '@{6 days ago}' HEAD
+- **12**: [12-29](2025/12/2025-12-29.pdf) ([slide](2025/12/2025-12-29-slide.pdf)) · [12-22](2025/12/2025-12-22.pdf) ([slide](2025/12/2025-12-22-slide.pdf)) · [12-15](2025/12/2025-12-15.pdf) ([slide](2025/12/2025-12-15-slide.pdf)) · [12-08](2025/12/2025-12-08.pdf) ([slide](2025/12/2025-12-08-slide.pdf)) · [12-01](2025/12/2025-12-01.pdf) ([slide](2025/12/2025-12-01-slide.pdf))
+- **11**: [11-24](2025/11/2025-11-24.pdf) ([slide](2025/11/2025-11-24-slide.pdf)) · [11-17](2025/11/2025-11-17.pdf) ([slide](2025/11/2025-11-17-slide.pdf)) · [11-10](2025/11/2025-11-10.pdf) ([slide](2025/11/2025-11-10-slide.pdf)) · [11-03](2025/11/2025-11-03.pdf) ([slide](2025/11/2025-11-03-slide.pdf))
+- **10**: [10-27](2025/10/2025-10-27.pdf) ([slide](2025/10/2025-10-27-slide.pdf)) · [10-20](2025/10/2025-10-20.pdf) ([slide](2025/10/2025-10-20-slide.pdf)) · [10-13](2025/10/2025-10-13.pdf) ([slide](2025/10/2025-10-13-slide.pdf))
+- **09**: [09-29](2025/09/2025-09-29.pdf) ([slide](2025/09/2025-09-29-slide.pdf)) · [09-22](2025/09/2025-09-22.pdf) ([slide](2025/09/2025-09-22-slide.pdf)) · [09-15](2025/09/2025-09-15.pdf) ([slide](2025/09/2025-09-15-slide.pdf)) · [09-08](2025/09/2025-09-08.pdf) ([slide](2025/09/2025-09-08-slide.pdf))
+- **08**: [08-18](2025/08/2025-08-18.pdf) ([slide](2025/08/2025-08-18-slide.pdf)) · [08-11](2025/08/2025-08-11.pdf) ([slide](2025/08/2025-08-11-slide.pdf)) · [08-04](2025/08/2025-08-04.pdf) ([slide](2025/08/2025-08-04-slide.pdf))
+- **07**: [07-28](2025/07/2025-07-28.pdf) ([slide](2025/07/2025-07-28-slide.pdf)) · [07-21](2025/07/2025-07-21.pdf) ([slide](2025/07/2025-07-21-slide.pdf)) · [07-14](2025/07/2025-07-14.pdf) ([slide](2025/07/2025-07-14-slide.pdf)) · [07-07](2025/07/2025-07-07.pdf) ([slide](2025/07/2025-07-07-slide.pdf))
+- **06**: [06-30](2025/06/2025-06-30.pdf) ([slide](2025/06/2025-06-30-slide.pdf)) · [06-23](2025/06/2025-06-23.pdf) ([slide](2025/06/2025-06-23-slide.pdf)) · [06-16](2025/06/2025-06-16.pdf) ([slide](2025/06/2025-06-16-slide.pdf))
+- **05**: [05-26](2025/05/2025-05-26.pdf) ([slide](2025/05/2025-05-26-slide.pdf)) · [05-19](2025/05/2025-05-19.pdf) ([slide](2025/05/2025-05-19-slide.pdf)) · [05-12](2025/05/2025-05-12.pdf) ([slide](2025/05/2025-05-12-slide.pdf))
+- **04**: [04-28](2025/04/2025-04-28.pdf) ([slide](2025/04/2025-04-28-slide.pdf)) · [04-21](2025/04/2025-04-21.pdf) ([slide](2025/04/2025-04-21-slide.pdf)) · [04-14](2025/04/2025-04-14.pdf) ([slide](2025/04/2025-04-14-slide.pdf)) · [04-07](2025/04/2025-04-07.pdf) ([slide](2025/04/2025-04-07-slide.pdf))
+- **03**: [03-31](2025/03/2025-03-31.pdf) ([slide](2025/03/2025-03-31-slide.pdf)) · [03-24](2025/03/2025-03-24.pdf) ([slide](2025/03/2025-03-24-slide.pdf)) · [03-17](2025/03/2025-03-17.pdf) ([slide](2025/03/2025-03-17-slide.pdf)) · [03-10](2025/03/2025-03-10.pdf) ([slide](2025/03/2025-03-10-slide.pdf)) · [03-03](2025/03/2025-03-03.pdf) ([slide](2025/03/2025-03-03-slide.pdf))
+- **02**: [02-24](2025/02/2025-02-24.pdf) ([slide](2025/02/2025-02-24-slide.pdf)) · [02-17](2025/02/2025-02-17.pdf) ([slide](2025/02/2025-02-17-slide.pdf)) · [02-10](2025/02/2025-02-10.pdf) ([slide](2025/02/2025-02-10-slide.pdf))
+- **01**: [01-20](2025/01/2025-01-20.pdf) ([slide](2025/01/2025-01-20-slide.pdf)) · [01-13](2025/01/2025-01-13.pdf) ([slide](2025/01/2025-01-13-slide.pdf)) · [01-06](2025/01/2025-01-06.pdf) ([slide](2025/01/2025-01-06-slide.pdf))
 
-# Or for more detailed changes including content differences
-git diff '@{6 days ago}' HEAD
-```
+</details>
+
+<details>
+<summary><strong>2024</strong></summary>
+
+- **12**: [12-30](2024/12/2024-12-30.pdf) ([slide](2024/12/2024-12-30-slide.pdf)) · [12-23](2024/12/2024-12-23.pdf) ([slide](2024/12/2024-12-23-slide.pdf)) · [12-16](2024/12/2024-12-16.pdf) ([slide](2024/12/2024-12-16-slide.pdf)) · [12-09](2024/12/2024-12-09.pdf) ([slide](2024/12/2024-12-09-slide.pdf)) · [12-02](2024/12/2024-12-02.pdf) ([slide](2024/12/2024-12-02-slide.pdf))
+- **11**: [11-25](2024/11/2024-11-25.pdf) ([slide](2024/11/2024-11-25-slide.pdf)) · [11-18](2024/11/2024-11-18.pdf) ([slide](2024/11/2024-11-18-slide.pdf)) · [11-11](2024/11/2024-11-11.pdf) ([slide](2024/11/2024-11-11-slide.pdf))
+
+</details>
+
+### Papers (submodules)
+
+- [FourthPaper](https://github.com/isomoes/deeper-paper)
+- [ThirdPaper](https://github.com/isomoes/ThirdPaper)
+- [SecondPaper](https://github.com/isomoes/SecondPaper)
+- [big_paper](https://github.com/isomoes/big_paper)
+
+### Other
+
+- [typesetting](https://github.com/isomoes/typesetting) — shared Typst templates/typesetting (submodule)
